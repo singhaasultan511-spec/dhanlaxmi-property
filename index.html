@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dhanlaxmi Property | Udaipur</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#0b0d0f;
+  color:#fff;
+  line-height:1.6;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  padding:30px 22px;
+  position:relative;
+  background:
+  linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.35)),
+  url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85")
+  center/cover;
+}
+
+.hero-content{
+  max-width:650px;
+}
+
+.logo{
+  font-size:18px;
+  letter-spacing:3px;
+  color:#d9b46b;
+  font-weight:bold;
+  margin-bottom:25px;
+}
+
+.hero h1{
+  font-size:clamp(42px,9vw,78px);
+  line-height:1;
+  margin-bottom:22px;
+}
+
+.hero h1 span{
+  color:#d9b46b;
+}
+
+.hero p{
+  font-size:18px;
+  color:#ddd;
+  margin-bottom:28px;
+}
+
+.buttons{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:4px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.whatsapp{
+  background:#25D366;
+  color:#fff;
+}
+
+.call{
+  background:#d9b46b;
+  color:#111;
+}
+
+.trust{
+  margin-top:28px;
+  font-size:14px;
+  color:#ddd;
+}
+
+section{
+  padding:70px 22px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.section-title{
+  font-size:35px;
+  margin-bottom:12px;
+}
+
+.section-subtitle{
+  color:#aaa;
+  margin-bottom:35px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:#15181b;
+  border:1px solid #292d31;
+  padding:28px 22px;
+  border-radius:10px;
+}
+
+.card h3{
+  color:#d9b46b;
+  margin-bottom:10px;
+}
+
+.card p{
+  color:#aaa;
+  font-size:14px;
+}
+
+.properties{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+
+.property{
+  background:#15181b;
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid #292d31;
+}
+
+.property img{
+  width:100%;
+  height:190px;
+  object-fit:cover;
+}
+
+.property-content{
+  padding:20px;
+}
+
+.property h3{
+  margin-bottom:6px;
+}
+
+.property p{
+  color:#aaa;
+  font-size:14px;
+}
+
+.property a{
+  display:inline-block;
+  margin-top:15px;
+  color:#d9b46b;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.rating{
+  text-align:center;
+  background:#121518;
+  border-radius:12px;
+  padding:35px 20px;
+}
+
+.rating-number{
+  font-size:52px;
+  color:#d9b46b;
+  font-weight:bold;
+}
+
+.stars{
+  font-size:25px;
+  margin:5px 0;
+}
+
+.contact{
+  text-align:center;
+}
+
+.contact p{
+  color:#aaa;
+  margin:8px 0;
+}
+
+footer{
+  padding:30px 20px;
+  text-align:center;
+  background:#070809;
+  color:#777;
+  font-size:13px;
+}
+
+.sticky{
+  display:none;
+}
+
+@media(max-width:600px){
+
+  .hero{
+    min-height:92vh;
+  }
+
+  .hero h1{
+    font-size:48px;
+  }
+
+  .section-title{
+    font-size:30px;
+  }
+
+  .sticky{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:999;
+    background:#111;
+    border-top:1px solid #333;
+  }
+
+  .sticky a{
+    flex:1;
+    text-align:center;
+    padding:15px 5px;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  .sticky .wa{
+    background:#25D366;
+    color:white;
+  }
+
+  .sticky .phone{
+    background:#d9b46b;
+    color:#111;
+  }
+
+  body{
+    padding-bottom:55px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero">
+
+  <div class="hero-content">
+
+    <div class="logo">DHANLAXMI PROPERTY</div>
+
+    <h1>
+      Find Your<br>
+      <span>Right Property.</span>
+    </h1>
+
+    <p>
+      Buy • Sell • Rent<br>
+      Residential & Commercial Properties in Udaipur
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn whatsapp"
+      href="https://wa.me/919414167144?text=Hello%20Dhanlaxmi%20Property%2C%20I%20am%20looking%20for%20a%20property%20in%20Udaipur."
+      target="_blank">
+      WhatsApp Us
+      </a>
+
+      <a class="btn call"
+      href="tel:+919414167144">
+      Call Now
+      </a>
+
+    </div>
+
+    <div class="trust">
+      ★ 4.9 Rated on Google • 123+ Reviews
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- SERVICES -->
+<section>
+
+  <h2 class="section-title">What are you looking for?</h2>
+
+  <p class="section-subtitle">
+    Simple property assistance for your next move.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>BUY A PROPERTY</h3>
+      <p>
+        Explore suitable residential and commercial property options in Udaipur.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>RENT A PROPERTY</h3>
+      <p>
+        Tell us your requirement and find a property according to your needs.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>SELL YOUR PROPERTY</h3>
+      <p>
+        Connect with Dhanlaxmi Property for assistance with selling your property.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROPERTIES -->
+<section>
+
+  <h2 class="section-title">Featured Properties</h2>
+
+  <p class="section-subtitle">
+    Looking for something specific? Contact us on WhatsApp.
+  </p>
+
+  <div class="properties">
+
+    <div class="property">
+
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80">
+
+      <div class="property-content">
+        <h3>Premium Residential Property</h3>
+        <p>Udaipur, Rajasthan</p>
+
+        <a href="https://wa.me/919414167144?text=Hello%2C%20I%20am%20interested%20in%20your%20residential%20property."
+        target="_blank">
+        Ask on WhatsApp →
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="property">
+
+      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80">
+
+      <div class="property-content">
+        <h3>Modern Home</h3>
+        <p>Udaipur, Rajasthan</p>
+
+        <a href="https://wa.me/919414167144?text=Hello%2C%20I%20am%20interested%20in%20your%20property."
+        target="_blank">
+        Ask on WhatsApp →
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="property">
+
+      <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80">
+
+      <div class="property-content">
+        <h3>Commercial Property</h3>
+        <p>Udaipur, Rajasthan</p>
+
+        <a href="https://wa.me/919414167144?text=Hello%2C%20I%20am%20interested%20in%20your%20commercial%20property."
+        target="_blank">
+        Ask on WhatsApp →
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- TRUST -->
+<section>
+
+  <div class="rating">
+
+    <div class="rating-number">4.9</div>
+
+    <div class="stars">
+      ★★★★★
+    </div>
+
+    <p>
+      Rated on Google with 123+ reviews
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact">
+
+  <h2 class="section-title">Let's Find Your Property</h2>
+
+  <p>
+    📍 Shalibhadra Complex, 10, Bedla Road, Udaipur, Rajasthan
+  </p>
+
+  <p>
+    📞 +91 94141 67144
+  </p>
+
+  <div class="buttons" style="justify-content:center;margin-top:25px;">
+
+    <a class="btn whatsapp"
+    href="https://wa
